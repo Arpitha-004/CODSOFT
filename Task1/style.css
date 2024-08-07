@@ -1,0 +1,68 @@
+body{
+    background-color: #FFDFD6;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    color: #32012F;
+}
+h2,h5{
+    color: #201E43;
+}
+.lead{
+    font-family: "Timmana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #522258;
+}
+.full{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#skills > li {
+    list-style-position: inside;
+}
+#projects div{
+    margin-left: 100px;
+    font-family: "Timmana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #522258;
+}
+.btn {
+    background: #FF7777;
+    background-image: linear-gradient(top bottom,#3D1300, #3D1300);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #021526;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.bottom-container {
+    background-color: #FCF8F3;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+.copyright {
+    color:#3D1300;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.bottom-container a{
+    font-family: "Timmana", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #522258;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+footer{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-bottom: 2px solid #3D1300;
+}
