@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(300deg, #F1E5D1, #921A40, #FFAD60);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    border: solid 2px #49243E;
+    padding: 0.5%;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+header{
+    background: linear-gradient(300deg, #FFFBE6, #EEEDEB, #DFD3C3);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+#home img{
+    padding: 10%;
+    float:left;
+}
+#home p{
+    padding: 10%;
+    float: right;
+}
+#features{
+    display: inline-block;
+    padding: 5%;
+    color: #F4D9D0;
+}
+#features,footer svg{
+    fill: #49243E;
+}
+.full{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    padding: 5%;
+}
+.slide{
+    height: 300px;
+    width: 400px;
+}
+.compl{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5%;
+}
