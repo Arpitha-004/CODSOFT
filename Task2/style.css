@@ -51,3 +51,40 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     padding: 5%;
 }
+@media (max-width: 1100px) {
+    body {
+        padding: 5%;
+    }
+
+    #features {
+        padding: 3%;
+    }
+
+    .slide {
+        height: 250px;
+        width: 100%;
+    }
+
+    .compl {
+        grid-template-columns: 1fr; /* Stacks columns vertically */
+        padding: 3%;
+    }
+
+    header .container {
+        flex-wrap: wrap;
+    }
+
+    header .nav-link {
+        font-size: 14px;
+    }
+
+    header .text-end {
+        margin-top: 10px;
+    }
+
+    #home img, #home p {
+        padding: 3%;
+        text-align: center;
+        width: 100%;
+    }
+}
