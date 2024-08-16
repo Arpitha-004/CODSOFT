@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#F6EACB">
+    <center>
+    <h1> Calculator</h1>  
+        <table class="cal" >
+            <tr>
+                <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>   
+                <td> <input type="button" value="Clear" onclick="clearScreen()" id="btn" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="1" class="display" /> </td>
+                <td> <input type="button" value="2" class="display" /> </td>
+                <td> <input type="button" value="3" class="display" /> </td>
+                <td> <input type="button" value="+" class="display" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="4" class="display" /> </td>
+                <td> <input type="button" value="5" class="display" /> </td>
+                <td> <input type="button" value="6" class="display" /> </td>
+                <td> <input type="button" value="-" class="display" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="7" class="display" /> </td>
+                <td> <input type="button" value="8" class="display" /> </td>
+                <td> <input type="button" value="9" class="display" /> </td>
+                <td> <input type="button" value="*" class="display" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="." class="display" /> </td>
+                <td> <input type="button" value="0" class="display" /> </td>
+                <td> <input type="button" value="/" class="display" /> </td>
+                <td> <input type="button" value="=" class="display" id="btn" /> </td>
+            </tr>
+        </table>
+    </center>
+        <script src="script.js"></script>
+</body>
+</html>
